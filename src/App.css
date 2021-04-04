@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background-color: gray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.elementNode {
+  color : "white";
+  background-color: coral;
+  padding: 10px;
+  width : "100px";
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.toolbar {
+  color : "white";
+  background-color: #282c34;
+  height: 10vh;
+  width : 100vw;
+  display: inline-block;
+  margin-right: 20px;
+}
